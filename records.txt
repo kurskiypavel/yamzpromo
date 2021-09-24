@@ -1,0 +1,19 @@
+ A @ → 75.2.60.5
+A www → 75.2.60.5
+MX @ → aspmx.l.google.com. 1 ++
+MX @ → alt1.aspmx.l.google.com. 5 ++
+MX @ → alt2.aspmx.l.google.com. 5 ++
+MX @ → aspmx2.googlemail.com. 10 ++
+MX @ → aspmx3.googlemail.com. 10 ++
+SRV _xmpp-client._tcp → talk.l.google.com. 5 ++
+SRV _xmpp-client._tcp → talk1.l.google.com. 20++
+SRV _xmpp-client._tcp → talk2.l.google.com. 20++
+SRV _xmpp-client._tcp → talk3.l.google.com. 20++
+SRV _xmpp-client._tcp → talk4.l.google.com. 20++
+SRV _xmpp-server._tcp → xmpp-server.l.google.com. 5++
+SRV _xmpp-server._tcp → xmpp-server1.l.google.com. 20++
+SRV _xmpp-server._tcp → xmpp-server2.l.google.com. 20++
+SRV _xmpp-server._tcp → xmpp-server3.l.google.com. 20++
+SRV _xmpp-server._tcp → xmpp-server4.l.google.com. 20++
+TXT @ → google-site-verification=7hVMkc3HX-RCMoJsx0-AUdMAhd3Bhso8ITq5MhC8OVE
+TXT @ → v=spf1 include:_spf.google.com ~all
